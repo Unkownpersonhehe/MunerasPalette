@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz@9..144&display=swap');
+
+body {
+    font-family: 'Fraunces', serif;
+    background-color: #5e1941; /* Deep maroon background */
+    color: #fff; /* White text for better readability */
+}
+
+.navbar {
+    background-color: #a85d6e; /* Softer shade of the background for contrast */
+}
+
+.navbar-brand, .nav-link {
+    color: #ffffff; /* White text for better visibility */
+}
+
+.nav-link:hover {
+    color: #ffd700; /* Gold color for hover effects */
+}
+
+.card {
+    border: none;
+    transition: transform .3s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05); /* Slight scale to highlight active cards */
+}
+
+.card-img-top {
+    height: 250px; /* Slightly taller images */
+    object-fit: cover;
+}
+
+.card-body {
+    background-color: #ffffff;
+    color: #333; /* Dark text for readability on light background */
+}
+
+footer {
+    background-color: #2c2f33; /* Dark footer matching the navbar */
+}
+
+/* Additional styles for alignment and responsiveness */
+main {
+    padding: 20px 0; /* Spacing around the main content */
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        background-color: #6f42c1; /* Purple for mobile navbar, can change if needed */
+    }
+}
